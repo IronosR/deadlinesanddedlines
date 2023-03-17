@@ -127,10 +127,6 @@ h1, h2, h3, h4, p, ul, footer
 
 }
 
-.intro_block > div > h4 {
-    font-size: 50px;
-}
-
 /* -------- Features Page -------- */
 .features{
     background-color: #333333;
@@ -140,9 +136,18 @@ h1, h2, h3, h4, p, ul, footer
 }
 
 .features h2, p {
-    text-align: left;
+    text-align: center;
 }
 
+img.features_icon{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img.features_icon:hover{
+    background-color: #888888;
+    border: 1px solid #AAAAAA;
+}
 /* -------- Updates Page -------- */
 
 .update_block {
@@ -156,21 +161,16 @@ h1, h2, h3, h4, p, ul, footer
     list-style-type: square;
    
 }
-
+/*---------Updates Page----------*/
+.face_photo{
+    margin-left: 38%;
+}
 /*------------------------FAQ PAGE------------------------*/
 
 
 body.faq{
     background-image: url("pictures/question2.jpg");
 }
-
-#last_in
-{
-    content: "";
-    clear: both;
-    display: table;
-} 
-
 /* Vertical Navigation Bar (for the FAQ page)*/
 div.side_bar {
     background-color: #444444;
@@ -183,21 +183,26 @@ div.side_bar li {
     
     list-style-type: none;
     background-color: #777777;
-    padding: 20px;
+    padding: 12%;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 0px;
     margin-right: 10px;
     float: left; 
-    text-align: left;
+    text-decoration: none;
     overflow: hidden;
+    height: 100%;
+
 }  
 
 div.side_bar li a{
     text-decoration: none;
     color: white;
-}
+    display: block;
+    width: 90px;
 
+
+}
 div.side_bar a:hover:not(.active) { /*set background color when hover over tab to grey */
     background-color: #555;
     color: white;
@@ -207,7 +212,7 @@ div.side_bar a:hover:not(.active) { /*set background color when hover over tab t
 div.FAQ { /*Position on the page*/
     margin-left: 15%;
     padding: 1px 16px;
-    height: 1000px;
+    height: 100%;
 }
   
 .question {
@@ -225,14 +230,6 @@ div.FAQ { /*Position on the page*/
     font-family: heebo, verdana, sans-serif;
 }
 
-.question, .answer{
-    opacity: 1;
-}
-
-.quest {
-    opacity: 0.9;
-}
-
 
 
 
@@ -240,31 +237,14 @@ div.FAQ { /*Position on the page*/
 
 div.intro_block {
     background-color: #444444;
+    text-align: left;
     margin-left: 10%;
     margin-right: 10%;
     padding: 20px;
-    
 }
 
-.face_photo {
-    float: left;
-    width: 160px;
-    height: 160px;
-}
 
-.clearfix_about:after {
-    content: "";
-    clear: both;
-    display: table;
-}
 
-.about_header{
-    font-size: 40px;
-}
-
-p.about_desc {
-    float: left;
-}
 
 
 
@@ -272,16 +252,17 @@ p.about_desc {
 footer /* Main Footer */
 {
     background-color: #000000;
-    position: static;
-    bottom: 0;
+    margin-top: 500px; /*Note to self: Adjust the footer when everything is finished.*/
     padding: 20px;
+    color: #744444; /* Note to self: when you are done with dealing with the footer, remove the colour.*/
+    text-align: center;
+    position: relative;
+    bottom: 0px;
     width: 100%;
     
 }
 
-
 footer ul { /* The whole list within the footer. */
-    text-align: center;
     float: center;
     padding-right: 15%;
     padding-left: 15%;
