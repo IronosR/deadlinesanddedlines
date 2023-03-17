@@ -1,0 +1,18 @@
+Note: If you want to do something else, please create a bullet point and a description of what you want to do.
+
+Orison:
+- Start the webpage and have it forked by the group. [Done]
+- Create links for other HTML pages. [Done]
+- Create the timer. (Later)
+- Develop the homepage. (Using all three programming languages.)
+- set up css file [base] [DONE]
+- Add additional CSS to other pages and make them look professional.
+
+Michal:
+- Fill in information of some webpages with HTML & CSS. (FAQ)
+- TO-DO List/ Deadlines(?) page/ Calendar (?) (js???)
+- 
+
+Samira:
+-
+-

@@ -1,0 +1,313 @@
+/*
+NOTICE!
+
+This file is here to change the colours of the page. Let Orison know if you are 
+unsure of what changes to make.
+
+*/
+
+
+/* -------- Selectors for All Webpages -------- */
+* {
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #222222;
+}
+
+
+h1, h2, h3, h4, p, ul, footer
+{
+    color: white;
+    text-align: center;
+    font-family: heebo, verdana, sans-serif;
+}
+
+.header
+{
+    margin: 0px;
+    border: 0px;
+    padding: 30px;
+    background-color: #111111;
+    text-align: center;
+    
+}
+
+/* -------- Horizontal Navigation Menu -------- */
+
+/* The 'universal_bar' is the main horizontal bar to navigate between pages. */
+.universal_bar {
+    list-style-type: none;
+    margin-top: 15px;
+    padding: 0px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.universal_bar li
+{
+    float: center;
+    width: 50%;
+    display: inline;
+    margin: 0px; /* Seperates the margin between each block of text.*/
+    border: 0px; /* This is the border itself, you can make the border visible or invisible. */
+    padding: 20px; /* Creates space between the text and the border. */
+    background-color: #555555;
+    
+}
+
+.universal_bar li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+.universal_bar li:hover
+{
+    background-color: #aaaaaa;
+    color: #000000;
+    border: 1px solid black'
+}
+
+.universal_bar .active {
+    background-color: #567e7e;
+    color: #000000;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+
+/* -------- Home Page -------- */
+
+
+/* // Note to self: Work on the main features by surrounding them in HTML elements. */
+.main_box {
+    background-color: #333333;
+    padding: 10px;
+    height: 700px;
+}
+
+/* -------- Home Page Icons -------- */
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 500,
+        'GRAD' 200,
+        'opsz' 48
+}
+
+.boxed {
+    float: left;
+    background-color: #555555;
+    text-align: center;
+    /*height: 300px;*/
+    padding: 20px;
+    overflow: hidden;
+    font-size: 22px;
+}
+
+#standard_box, #project_box, #challenge_box {
+    width: 33.33%;
+    border: 3px solid #333333;
+}
+
+
+#standard_box:hover, #project_box:hover, #challenge_box:hover {
+    background-color: #888888;
+    border: 1px solid #AAAAAA;
+}
+
+.main_desc{
+    font-size: 15px;
+
+}
+
+.intro_block > div > h4 {
+    font-size: 50px;
+}
+
+/* -------- Features Page -------- */
+.features{
+    background-color: #333333;
+    padding: 10px;
+    height: 700px;
+    
+}
+
+.features h2, p {
+    text-align: left;
+}
+
+/* -------- Updates Page -------- */
+
+.update_block {
+    background-color: #444444;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+}
+.bullet_point {
+    list-style-type: square;
+   
+}
+
+/*------------------------FAQ PAGE------------------------*/
+
+
+body.faq{
+    background-image: url("pictures/question2.jpg");
+}
+
+#last_in
+{
+    content: "";
+    clear: both;
+    display: table;
+} 
+
+/* Vertical Navigation Bar (for the FAQ page)*/
+div.side_bar {
+    background-color: #444444;
+    float: left;
+    width: 10%;
+    margin-top: 30px;
+}
+
+div.side_bar li {
+    
+    list-style-type: none;
+    background-color: #777777;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+    float: left; 
+    text-align: left;
+    overflow: hidden;
+}  
+
+div.side_bar li a{
+    text-decoration: none;
+    color: white;
+}
+
+div.side_bar a:hover:not(.active) { /*set background color when hover over tab to grey */
+    background-color: #555;
+    color: white;
+    border: 1px solid black'
+  }
+
+div.FAQ { /*Position on the page*/
+    margin-left: 15%;
+    padding: 1px 16px;
+    height: 1000px;
+}
+  
+.question {
+        font-size: 27px;
+        color: white;
+        text-align: center;
+        font-family: heebo, verdana, sans-serif;
+    }
+
+
+.answer {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-family: heebo, verdana, sans-serif;
+}
+
+.question, .answer{
+    opacity: 1;
+}
+
+.quest {
+    opacity: 0.9;
+}
+
+
+
+
+/* -------- About Us Page -------- */
+
+div.intro_block {
+    background-color: #444444;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    
+}
+
+.face_photo {
+    float: left;
+    width: 160px;
+    height: 160px;
+}
+
+.clearfix_about:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.about_header{
+    font-size: 40px;
+}
+
+p.about_desc {
+    float: left;
+}
+
+
+
+/* -------- Footer of the page -------- */
+footer /* Main Footer */
+{
+    background-color: #000000;
+    position: static;
+    bottom: 0;
+    padding: 20px;
+    width: 100%;
+    
+}
+
+
+footer ul { /* The whole list within the footer. */
+    text-align: center;
+    float: center;
+    padding-right: 15%;
+    padding-left: 15%;
+    max-width: 100%;
+
+}
+
+footer ul li /* Links within the footer */
+{
+    display: inline-block;
+    font-size: 15px;
+}
+
+footer h4 {
+    text-align: center;
+}
+
+footer ul li a {
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+footer ul li:hover /* The links themselves. */
+{
+    background-color: #555555;
+}
+
+

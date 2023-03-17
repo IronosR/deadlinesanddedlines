@@ -1,0 +1,12 @@
+1. Learn HTML - CSS & Javascript (Whenever possible) & We draw and debate on things we want included in
+the website. 
+
+2. Start Web Development - Orison teaches GitHub and we start developing the website. We also start on
+finalizing the ideas and we begin developing the timer.
+
+
+
+Pages:
+Main Page with a timer at the centre. [Priority] - Challange Timers - Project Timers - Automated Timers
+Statistics, Other stuff.
+
